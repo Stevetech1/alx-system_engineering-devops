@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install the web server 'nginx' on the server and perform some configurations that will keep the server running perfectly
+# Install the web server 'nginx' on the server and perform some configurations that will keep the nginx running
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install nginx -y
