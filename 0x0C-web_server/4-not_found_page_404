@@ -22,7 +22,7 @@ new_website=\
                 internal;
         }
         if ($request_filename ~ redirect_me){
-            rewrite ^ https://www.facebook.com/steveojata permanent;
+            rewrite ^ https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;
         }
 }"
 
