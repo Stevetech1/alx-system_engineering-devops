@@ -24,12 +24,6 @@ scp must transfer the file to the user home directory ~/
 Strict host key checking must be disabled when using scp
 
 1. Install nginx web server
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
-
-Readme:
-
 -y on apt-get command
 Web servers are the piece of software generating and serving HTML pages, let’s install one!
 
@@ -43,8 +37,6 @@ As an answer file, write a Bash script that configures a new Ubuntu machine to r
 You can’t use systemctl for restarting nginx
 
 2. Setup a domain name
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
 .TECH Domains is one of the top domain providers. They are known for the stability and quality of their DNS hosting solution. We partnered with .TECH Domains so that you can learn about DNS.
 
 .TECH Domains worked with domain name registrars to give you access to a free domain name for a year. Please get the promo code in your tools space. Feel free to drop a thank you tweet for .TECH Domains.
@@ -58,10 +50,6 @@ configure your DNS records with an A entry so that your root domain points to yo
 go to your profile and enter your domain in the Project website url field
 
 3. Redirection
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-Readme:
-
 Replace a line with multiple lines with sed
 Configure your Nginx server so that /redirect_me is redirecting to another page.
 
@@ -72,8 +60,6 @@ You answer file should be a Bash script containing commands to automatically con
 Using what you did with 1-install_nginx_web_server, write 3-redirection so that it configures a brand new Ubuntu machine to the requirements asked in this task
 
 4. Not found page 404
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Configure your Nginx server to have a custom 404 page that contains the string Ceci n'est pas une page.
 
 Requirements:
