@@ -39,14 +39,14 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend superstaz-tech-frontend
+frontend stevetech-tech-frontend
     bind *:80
-    default_backend superstaz-tech-backend
+    default_backend stevetech-tech-backend
 
-backend superstaz-tech-backend
+backend stevetech-tech-backend
     balance roundrobin
-    server 221354-web-01 54.208.153.21:80 check
-    server 221354-web-02 54.158.207.61:80 check
+    server 221354-web-01 54.145.241.145:80 check
+    server 221354-web-02 54.84.9.7:80 check
 "
 
 # shellcheck disable=SC2154
