@@ -1,0 +1,17 @@
+
+defaults
+  mode http
+  timeout client 15s
+  timeout connect 10s
+  timeout server 15s
+  timeout http-request 10s
+
+frontend stevetech-tech-frontend
+    bind *:80
+    default_backend stevetech-tech-backend
+
+backend stevetech-tech-backend
+    balance roundrobin
+    server 218488-web-01 54.145.241.145:80 check
+    server 218488-web-02 100.25.198.58:80 check
+
