@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# connect to server lb-01 as 'ubuntu', with your private saved as 'id_rsa'
+ssh -i ~/.ssh/id_rsa ubuntu@54.175.135.237
