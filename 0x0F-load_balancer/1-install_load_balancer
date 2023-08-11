@@ -45,8 +45,8 @@ frontend stevetech-tech-frontend
 
 backend stevetech-tech-backend
     balance roundrobin
-    server 209510-web-01 54.145.241.145:80 check
-    server 209510-web-02 100.25.198.58:80 check
+    server 209510-web-01 54.89.77.39:80 check
+    server 209510-web-02 54.234.59.0:80 check
 "
 
 # shellcheck disable=SC2154
